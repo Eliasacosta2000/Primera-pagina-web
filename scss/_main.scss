@@ -1,0 +1,9 @@
+.main {
+  @if $color-main == #e4e4e4 {
+    background-color: $color-main;
+  } @else {
+    background-color: hotpink;
+  }
+  min-height: 600px;
+  min-width: 800px;
+}

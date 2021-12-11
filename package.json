@@ -1,7 +1,7 @@
 {
   "name": "proyectocoder1",
   "version": "1.0.0",
-  "description": "",
+  "description": "Esta es una pagina web de un emprendimiento dedicado a la venta de productos de bazar y demas",
   "main": "index.js",
   "dependencies": {
     "animate.css": "^4.1.1"

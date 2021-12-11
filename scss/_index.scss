@@ -1,140 +1,161 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 body {
-  font-family: "Noto Sans", sans-serif;
-  font-size: 1.2rem;
+  font-family: $font-tipo;
+  font-size: $font-big;
   font-weight: bolder;
   font-style: normal;
   color: white;
 }
+
 .header {
   padding-left: 15px;
   margin-top: 2px;
+
+  &__menu {
+    display: flex;
+    flex-direction: "row";
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 }
-.header__menu {
-  display: flex;
-  flex-direction: "row";
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
+
 .main {
   min-height: 600px;
   min-width: 800px;
   background-color: #e4e4e4;
 }
+
 ul {
   display: flex;
-  list-style: none;
+  list-style: $lista-style;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
 ul ul {
   position: absolute;
   display: none;
-  background-color: darkturquoise;
+  background-color: $color-background;
 }
+
 ul ul li {
   display: block;
 }
+
 ul li:hover ul {
   display: block;
 }
+
 a:hover {
-  background-color: white;
-  color: darkturquoise;
+  background-color: $color-terciario;
+  color: $color-background;
   margin-top: 2px;
   box-shadow: 2px 2px 6px black;
   text-decoration: none;
 }
+
 .masvendidos {
-  color: darkturquoise;
+  color: $color-background;
   margin: 1.1rem;
-  font-family: "Noto Sans", sans-serif;
-  font-size: 1.1rem;
+  font-family: $font-tipo;
+  font-size: $font-big;
   font-weight: bolder;
   font-style: normal;
   height: 350px;
+
+  &__img {
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 }
-.masvendidos__img {
-  padding-top: 5px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
+
 .pizza {
   width: 400px;
 }
+
 .conos {
   width: 350px;
 }
+
 .vasos {
   width: 250px;
 }
+
 .destacados {
-  color: darkturquoise;
+  color: $color-background;
   margin: 1.1rem;
-  font-family: "Noto Sans", sans-serif;
-  font-size: 1.1rem;
+  font-family: $font-tipo;
+  font-size: $font-big;
   font-weight: bolder;
   font-style: normal;
   height: 400px;
+
+  &__img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
 }
-.destacados__img {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-top: 10px;
-}
+
 .bolsaauto {
   width: 300px;
 }
+
 .buda {
   width: 300px;
 }
+
 .pastillero {
   width: 300px;
 }
+
 .sobrenosotros {
-  color: darkturquoise;
+  color: $color-background;
   margin: 1.1rem;
-  font-family: "Noto Sans", sans-serif;
+  font-family: $font-tipo;
   font-size: 1.3rem;
   font-weight: bolder;
   font-style: normal;
+
+  &__p {
+    color: $color-primario;
+  }
+
+  &__span {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: hotpink;
+  }
 }
-.sobrenosotros__p {
-  color: black;
-}
-.sobrenosotros__span {
-  text-transform: uppercase;
-  font-size: 1.5rem;
-  color: hotpink;
-}
+
 .a {
   text-decoration: none;
-  color: black;
+  color: $color-primario;
 }
+
 .p {
-  text-align: center;
+  text-align: $text-center;
   font-size: 1.5rem;
   text-transform: capitalize;
-  color: black;
+  color: $color-primario;
 }
+
 /*Fin de index*/
+
 /*FOOTER*/
 .footer {
   display: flex;
   justify-content: center;
   align-items: flex-start;
   height: 150px;
-  background: linear-gradient(to top, hotpink, pink);
+  background: $color-secundario;
 }
+
 .footer .footerredes {
   width: 100%;
   max-width: 1200px;
@@ -143,16 +164,19 @@ a:hover {
   flex-direction: row;
   padding: 15px 0;
 }
+
 .footer .footerredes .footerlogo {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 footer .footerredes .footerredes__ul {
   display: flex;
   flex-direction: row;
   margin-left: auto;
 }
+
 .footerredes__ul .footerredes__li {
   display: flex;
   justify-content: center;
@@ -163,11 +187,13 @@ footer .footerredes .footerredes__ul {
   margin-left: 10px;
   opacity: 0.5;
 }
+
 .footerredes__ul .footerredes__li:hover {
   opacity: 1;
 }
+
 .footerredes__ul .footerredes__li .footerredes__link {
-  color: black;
+  color: $color-primario;
 }
 /*Fin de FOOTER*/
 
@@ -176,210 +202,256 @@ footer .footerredes .footerredes__ul {
   margin-top: 30px;
   font-size: 1.3rem;
   text-decoration: none;
-  text-align: center;
+  text-align: $text-center;
   display: flex;
   justify-content: center;
-}
-.cat__padre {
-  display: grid;
-  grid-template-columns: 250px 250px 250px;
-  grid-template-rows: 200px 200px 200px;
-  height: 600px;
-  grid-column-gap: 20px;
-  /*margin-left: 90px;*/
-  width: 800px;
-}
-.cat__hijo img {
-  height: 150px;
-  width: 250px;
-  border-radius: 0.5rem;
+
+  &__padre {
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 200px 200px 200px;
+    height: 600px;
+    grid-column-gap: 20px;
+    /*margin-left: 90px;*/
+    width: 800px;
+  }
+  &__hijo img {
+    height: 150px;
+    width: 250px;
+    border-radius: 0.5rem;
+  }
 }
 /*Fin de categorias*/
 
 /*Productos Nuevos*/
+
 .productosnuevos {
-  color: darkturquoise;
+  color: $color-background;
   margin: 1.1rem;
-  font-family: "Noto Sans", sans-serif;
+  font-family: $font-tipo;
   font-weight: bolder;
   font-style: normal;
 }
+
 .div__prod-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  text-align: center;
+  text-align: $text-center;
   margin-bottom: 20px;
-  color: white;
+  color: $color-terciario;
+
+  &__prod-img {
+    width: 150px;
+    height: 150px;
+    box-shadow: $color-primario;
+  }
 }
-.div__prod-img {
-  width: 150px;
-  height: 150px;
-  box-shadow: black;
-}
+
 /*Fin de productos nuevos*/
 
 /*FAQ*/
+
 .faq__contenedor {
   display: grid;
   grid-template-columns: 250px 250px 250px;
   grid-template-rows: 200px 200px 200px;
   grid-column-gap: 290px;
-}
-.faq__item {
-  margin: 20px 20px;
-  border: 2px solid hotpink;
-  text-align: center;
+
+  &__item {
+    margin: 20px 20px;
+    border: 2px solid hotpink;
+    text-align: $text-center;
+  }
 }
 /*Fin de FAQ*/
 
 /*Inicio de platospizza*/
+
 .platopizza {
   margin: 20px;
   padding: 100px;
-  text-align: center;
-  color: black;
+  text-align: $text-center;
+  color: $color-primario;
 }
 .ol {
-  list-style: none;
+  list-style: $lista-style;
   text-transform: uppercase;
   color: hotpink;
 }
+
 /*Fin de platospizza*/
 
 /*Conosdips*/
+
 .conosdips {
   margin: 20px;
   padding: 100px;
-  text-align: center;
-  color: black;
+  text-align: $text-center;
+  color: $color-primario;
 }
+
 /*Fin de conosdips*/
 
 /*Vasostermicos*/
+
 .vasotermico {
   margin: 20px;
   padding: 100px;
-  text-align: center;
-  color: black;
+  text-align: $text-center;
+  color: $color-primario;
 }
+
 .vasotermico img {
   width: 500px;
   height: 450px;
 }
+
 /*Fin de vasostermicos*/
 
 /*Portacepillos*/
+
 .portacepillo {
   margin: 20px;
   padding: 100px;
-  text-align: center;
-  color: black;
+  text-align: $text-center;
+  color: $color-primario;
 }
+
 /*Fin de portacepillo*/
 
 /*Moldeteflon*/
+
 .moldeteflon {
   margin: 20px;
   padding: 100px;
-  text-align: center;
-  color: black;
+  text-align: $text-center;
+  color: $color-primario;
 }
+
 /*Fin de moldeteflon*/
 
 /*Soportepuerta*/
+
 .soportepuerta {
   margin: 20px;
   padding: 100px;
-  text-align: center;
-  color: black;
+  text-align: $text-center;
+  color: $color-primario;
 }
+
 /*Fin de soportepuerta*/
 
 /*Bolsaparaauto*/
+
 .bolsaparaauto {
   margin: 20px;
   padding: 100px;
-  text-align: center;
-  color: black;
+  text-align: $text-center;
+  color: $color-primario;
 }
+
 /*Fin de bolsaparauto*/
 
 /*Cascadabuda*/
+
 .cascadabuda {
   margin: 20px;
   padding: 100px;
-  text-align: center;
-  color: black;
+  text-align: $text-center;
+  color: $color-primario;
 }
+
 /*Fin de cascadabuda*/
 
 /*Pastillerodias*/
+
 .pastillerodias {
   margin: 20px;
   padding: 100px;
-  text-align: center;
-  color: black;
+  text-align: $text-center;
+  color: $color-primario;
 }
+
 /*Fin pastillerodias*/
 
 /*Inicio boton*/
+
 .boton {
   background: hotpink;
-  color: black;
+  color: $color-primario;
   padding: 5px;
   font-size: 20px;
   font-weight: 10px;
-  font-family: "Noto Sans", sans-serif;
+  font-family: $font-tipo;
   border-bottom-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
   transition: all ease-in-out 2s;
   transition-duration: 0.5s;
-  text-align: center;
+  text-align: $text-center;
+
+  &:hover {
+    background: $color-secundario;
+    color: $color-terciario;
+    border: 2px solid grey;
+  }
 }
-.boton:hover {
-  background: linear-gradient(to bottom, hotpink, pink);
-  color: #ffffff;
-  border: 2px solid grey;
-}
+
 /*Fin boton*/
 
 /*Contacto*/
+
 .contacto {
   width: 750px;
   height: 780px;
   margin: auto;
-  color: black;
-  text-align: center;
+  color: $color-primario;
+  text-align: $text-center;
   border: hotpink 5px solid;
   border-radius: 1rem;
   background-color: darkgray;
 }
+
+input {
+  width: 500px;
+  text-align: $text-center;
+}
+
 .input {
   background: hotpink;
-  color: black;
+  color: $color-primario;
   padding: 5px;
   font-size: 20px;
   font-weight: 10px;
-  font-family: "Noto Sans", sans-serif;
+  font-family: $font-tipo;
   border-bottom-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
   transition: all ease-in-out 2s;
   transition-duration: 0.5s;
-  text-align: center;
+  text-align: $text-center;
+
+  &:hover {
+    background: $color-secundario;
+    color: $color-terciario;
+    border: 2px solid grey;
+  }
+
+  &__div {
+    padding: 10px 10px;
+    margin: 10px;
+  }
 }
-input {
-  width: 500px;
-  text-align: center;
-}
-.input:hover {
-  background: linear-gradient(to bottom, hotpink, pink);
-  color: #ffffff;
-  border: 2px solid grey;
-}
-.input__div {
-  padding: 10px 10px;
-  margin: 10px;
-}
+
 /*Fin de contacto*/
+
+/*Inicio 404*/
+.error {
+  color: $color-primario;
+  text-align: $text-center;
+  font-family: $font-tipo;
+}
+.a404 {
+  color: hotpink;
+}
+/*Fin de 404*/
