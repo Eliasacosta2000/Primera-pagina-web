@@ -240,10 +240,16 @@ footer .footerredes .footerredes__ul {
   margin-bottom: 20px;
   color: white;
 }
-.div__prod-container__prod-img {
-  width: 150px;
-  height: 150px;
-  box-shadow: black;
+.div__prod-container .estuche {
+  height: 380px;
+}
+.div__prod-container .teflon {
+  width: 350px;
+  height: 380px;
+}
+.div__prod-container .soporte {
+  height: 380px;
+  width: 350px;
 }
 
 /*Fin de productos nuevos*/

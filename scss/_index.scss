@@ -242,10 +242,18 @@ footer .footerredes .footerredes__ul {
   margin-bottom: 20px;
   color: $color-terciario;
 
-  &__prod-img {
-    width: 150px;
-    height: 150px;
-    box-shadow: $color-primario;
+  .estuche {
+    height: 380px;
+  }
+
+  .teflon {
+    width: 350px;
+    height: 380px;
+  }
+
+  .soporte {
+    height: 380px;
+    width: 350px;
   }
 }
 
