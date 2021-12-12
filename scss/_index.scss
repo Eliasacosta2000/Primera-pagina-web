@@ -17,8 +17,9 @@ body {
     justify-content: space-around;
   }
 }
-
 .main {
+  padding-bottom: 15px;
+  padding-top: 15px;
   min-height: 600px;
   min-width: 800px;
   background-color: #e4e4e4;
@@ -411,9 +412,10 @@ footer .footerredes .footerredes__ul {
 /*Contacto*/
 
 .contacto {
+  padding-top: 10px;
   width: 750px;
-  height: 780px;
-  margin: auto;
+  height: 825px;
+  margin: 0 250px;
   color: $color-primario;
   text-align: $text-center;
   border: hotpink 5px solid;

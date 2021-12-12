@@ -24,6 +24,8 @@ body {
 }
 
 .main {
+  padding-bottom: 15px;
+  padding-top: 15px;
   min-height: 600px;
   min-width: 800px;
   background-color: #e4e4e4;
@@ -382,9 +384,10 @@ footer .footerredes .footerredes__ul {
 /*Fin boton*/
 /*Contacto*/
 .contacto {
+  padding-top: 10px;
   width: 750px;
-  height: 780px;
-  margin: auto;
+  height: 825px;
+  margin: 0 250px;
   color: black;
   text-align: center;
   border: hotpink 5px solid;
