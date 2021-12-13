@@ -251,14 +251,22 @@ footer .footerredes .footerredes__ul {
 /*FAQ*/
 .faq__contenedor {
   display: grid;
-  grid-template-columns: 250px 250px 250px;
-  grid-template-rows: 200px 200px 200px;
-  grid-column-gap: 250px;
-  margin-left: 50px;
+  grid-template-columns: 250px 250px 280px;
+  grid-template-rows: 200px 200px 280px;
+  grid-column-gap: 200px;
+  grid-row-gap: 120px;
+  margin: 50px 50px;
 }
 .faq__contenedor__item {
   margin: 20px 20px;
   text-align: center;
+}
+
+.p__faq {
+  text-align: center;
+  font-size: 1.1rem;
+  text-transform: capitalize;
+  color: darkcyan;
 }
 
 /*Fin de FAQ*/
