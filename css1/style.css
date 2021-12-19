@@ -64,6 +64,7 @@ a:hover {
   height: 350px;
 }
 .masvendidos__img {
+  margin-top: 50px;
   padding-top: 5px;
   display: flex;
   flex-direction: row;
@@ -85,19 +86,19 @@ a:hover {
 
 .destacados {
   color: darkturquoise;
-  margin: 1.1rem;
+  margin: 80px 1.1rem;
   font-family: "Noto Sans", "sans-serif";
   font-size: 1.2rem;
   font-weight: bolder;
   font-style: normal;
-  height: 400px;
+  height: 450px;
 }
 .destacados__img {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-top: 10px;
+  margin-top: 40px;
 }
 
 .bolsaauto {

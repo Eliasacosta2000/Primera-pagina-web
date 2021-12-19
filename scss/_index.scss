@@ -56,6 +56,7 @@ a:hover {
   height: 350px;
 
   &__img {
+    margin-top: 50px;
     padding-top: 5px;
     display: flex;
     flex-direction: row;
@@ -78,19 +79,19 @@ a:hover {
 
 .destacados {
   color: $color-background;
-  margin: 1.1rem;
+  margin: 80px 1.1rem;
   font-family: $font-tipo;
   font-size: $font-big;
   font-weight: bolder;
   font-style: normal;
-  height: 400px;
+  height: 450px;
 
   &__img {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 10px;
+    margin-top: 40px;
   }
 }
 
