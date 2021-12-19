@@ -442,6 +442,11 @@ footer .footerredes .footerredes__ul {
   background-color: darkgray;
 }
 
+.contenedor__radio {
+  display: flex;
+  flex-direction: row;
+}
+
 input {
   width: 500px;
   text-align: $text-center;
