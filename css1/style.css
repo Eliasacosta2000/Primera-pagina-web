@@ -54,15 +54,6 @@ a:hover {
   text-decoration: none;
 }
 
-@media screen and (min-width: 768px) {
-  .masvendidos {
-    color: blue;
-  }
-
-  .masvendidos__img {
-    display: inline-block;
-  }
-}
 .masvendidos {
   color: darkturquoise;
   margin: 1.1rem;
