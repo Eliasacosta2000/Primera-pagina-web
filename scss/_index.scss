@@ -4,7 +4,6 @@ body {
   font-weight: bolder;
   font-style: normal;
   color: white;
-  background-color: $color-main;
 }
 .header {
   margin-top: 5px;
@@ -440,12 +439,6 @@ footer .footerredes .footerredes__ul {
   border: hotpink 5px solid;
   border-radius: 1rem;
   background-color: darkgray;
-}
-
-.contenedor__radio {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
 }
 
 input {
