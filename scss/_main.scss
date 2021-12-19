@@ -1,5 +1,5 @@
 .main {
-  @if $color-main == #e4e4e4 {
+  @if $color-main == white {
     background-color: $color-main;
   } @else {
     background-color: hotpink;
