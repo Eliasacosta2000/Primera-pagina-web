@@ -420,6 +420,7 @@ footer .footerredes .footerredes__ul {
 .contenedor__radio {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 input {
