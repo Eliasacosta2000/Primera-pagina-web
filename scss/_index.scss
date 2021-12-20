@@ -273,7 +273,8 @@ footer .footerredes .footerredes__ul {
   grid-template-rows: 200px 200px 280px;
   grid-column-gap: 200px;
   grid-row-gap: 120px;
-  margin: 50px 50px;
+  margin: 50px 88px;
+  padding: auto;
 
   &__item {
     margin: 20px 20px;
@@ -425,13 +426,17 @@ footer .footerredes .footerredes__ul {
 .contacto {
   padding-top: 10px;
   width: 750px;
-  height: 825px;
-  margin: 0 250px;
+  height: 925px;
+  margin: auto;
   color: $color-primario;
   text-align: $text-center;
   border: hotpink 5px solid;
   border-radius: 1rem;
   background-color: darkgray;
+}
+
+label {
+  display: block;
 }
 
 input {
