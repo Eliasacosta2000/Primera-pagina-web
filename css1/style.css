@@ -20,8 +20,8 @@ body {
 .main {
   padding-bottom: 15px;
   padding-top: 15px;
-  min-height: 600px;
-  min-width: 800px;
+  height: auto;
+  width: auto;
   background-color: white;
 }
 
