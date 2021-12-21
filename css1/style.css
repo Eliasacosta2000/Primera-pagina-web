@@ -65,7 +65,7 @@ a:hover {
   height: 350px;
 }
 .masvendidos__img {
-  margin-top: 50px;
+  margin-top: 40px;
   padding-top: 5px;
   display: flex;
   flex-direction: row;
@@ -87,12 +87,12 @@ a:hover {
 
 .destacados {
   color: darkturquoise;
-  margin: 80px 1.1rem;
+  margin: 150px 1.1rem;
   font-family: "Noto Sans", "sans-serif";
   font-size: 1.2rem;
   font-weight: bolder;
   font-style: normal;
-  height: 450px;
+  height: 320px;
 }
 .destacados__img {
   display: flex;
