@@ -17,6 +17,12 @@ body {
   background-color: white;
 }
 
+@media (max-width: 768px) {
+  .main {
+    width: 50%;
+  }
+}
+
 ul {
   display: flex;
   list-style: $lista-style;
