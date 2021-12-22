@@ -54,7 +54,7 @@ a:hover {
   font-size: $font-big;
   font-weight: bolder;
   font-style: normal;
-  height: 350px;
+  height: 50%;
 
   &__img {
     margin-top: 40px;
@@ -63,6 +63,18 @@ a:hover {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+  }
+}
+@media (max-width: 768px) {
+  .masvendidos {
+    width: 100%;
+  }
+  .masvendidos__img {
+    width: 50%;
+    height: 50%;
+  }
+  .destacados {
+    width: 50%;
   }
 }
 
@@ -85,7 +97,7 @@ a:hover {
   font-size: $font-big;
   font-weight: bolder;
   font-style: normal;
-  height: 320px;
+  height: 100%;
 
   &__img {
     display: flex;
@@ -143,6 +155,12 @@ a:hover {
   color: $color-primario;
 }
 
+@media (max-width: 768px) {
+  .sobrenosotros {
+    width: 80%;
+  }
+}
+
 /*Fin de index*/
 
 /*FOOTER*/
@@ -150,7 +168,7 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  height: 150px;
+  height: 100px;
   background: $color-secundario;
 }
 
@@ -169,7 +187,7 @@ a:hover {
   align-items: center;
 }
 
-footer .footerredes .footerredes__ul {
+.footer .footerredes .footerredes__ul {
   display: flex;
   flex-direction: row;
   margin-left: auto;
@@ -201,6 +219,12 @@ footer .footerredes .footerredes__ul {
 
 .footerredes__ul .footerredes__li .footerredes__link {
   color: $color-primario;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    width: 100%;
+  }
 }
 /*Fin de FOOTER*/
 

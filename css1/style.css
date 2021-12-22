@@ -62,7 +62,7 @@ a:hover {
   font-size: 1.2rem;
   font-weight: bolder;
   font-style: normal;
-  height: 350px;
+  height: 50%;
 }
 .masvendidos__img {
   margin-top: 40px;
@@ -73,6 +73,20 @@ a:hover {
   justify-content: space-around;
 }
 
+@media (max-width: 768px) {
+  .masvendidos {
+    width: 100%;
+  }
+
+  .masvendidos__img {
+    width: 50%;
+    height: 50%;
+  }
+
+  .destacados {
+    width: 50%;
+  }
+}
 .pizza {
   width: 400px;
 }
@@ -92,7 +106,7 @@ a:hover {
   font-size: 1.2rem;
   font-weight: bolder;
   font-style: normal;
-  height: 320px;
+  height: 100%;
 }
 .destacados__img {
   display: flex;
@@ -146,13 +160,18 @@ a:hover {
   color: black;
 }
 
+@media (max-width: 768px) {
+  .sobrenosotros {
+    width: 80%;
+  }
+}
 /*Fin de index*/
 /*FOOTER*/
 .footer {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  height: 150px;
+  height: 100px;
   background: linear-gradient(to top, hotpink, pink);
 }
 
@@ -171,7 +190,7 @@ a:hover {
   align-items: center;
 }
 
-footer .footerredes .footerredes__ul {
+.footer .footerredes .footerredes__ul {
   display: flex;
   flex-direction: row;
   margin-left: auto;
@@ -205,6 +224,11 @@ footer .footerredes .footerredes__ul {
   color: black;
 }
 
+@media (max-width: 768px) {
+  .footer {
+    width: 100%;
+  }
+}
 /*Fin de FOOTER*/
 /*Categorias*/
 .cat {
