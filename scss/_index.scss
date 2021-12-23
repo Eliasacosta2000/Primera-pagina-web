@@ -4,7 +4,6 @@ body {
   font-weight: bolder;
   font-style: normal;
   color: white;
-  width: 100%;
 }
 .header {
   margin-top: 5px;
@@ -80,14 +79,18 @@ a:hover {
 }
 @media (max-width: 768px) {
   .masvendidos {
-    width: 100%;
+    width: 80%;
   }
   .masvendidos__img {
     width: 50%;
-    height: 50%;
+    margin: auto;
   }
   .destacados {
+    width: 80%;
+  }
+  .destacados__img {
     width: 50%;
+    margin: auto;
   }
 }
 
@@ -170,7 +173,11 @@ a:hover {
 
 @media (max-width: 768px) {
   .sobrenosotros {
-    width: 40%;
+    width: 80%;
+  }
+  .sobrenosotros__p {
+    width: 50%;
+    margin: auto;
   }
 }
 
@@ -182,6 +189,7 @@ a:hover {
   justify-content: center;
   align-items: flex-start;
   height: 100px;
+  width: 100%;
   background: $color-secundario;
 }
 
@@ -236,7 +244,7 @@ a:hover {
 
 @media (max-width: 768px) {
   .footer {
-    width: 100%;
+    width: 105%;
   }
 }
 /*Fin de FOOTER*/
