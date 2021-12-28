@@ -10,6 +10,7 @@ body {
   font-weight: bolder;
   font-style: normal;
   color: white;
+  background-color: white;
 }
 
 .header {
@@ -454,7 +455,7 @@ a:hover {
   text-align: center;
   border: hotpink 5px solid;
   border-radius: 1rem;
-  background-color: darkgray;
+  background-color: whitesmoke;
 }
 
 label {
