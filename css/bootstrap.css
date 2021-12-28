@@ -3106,13 +3106,13 @@ fieldset:disabled .btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #0d6efd;
-  border-color: #0d6efd;
+  background-color: hotpink;
+  border-color: hotpink;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #0b5ed7;
-  border-color: #0a58ca;
+  background-color: hotpink;
+  border-color: hotpink;
 }
 .btn-check:focus + .btn-primary,
 .btn-primary:focus {
@@ -3127,8 +3127,8 @@ fieldset:disabled .btn {
 .btn-primary.active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #0a58ca;
-  border-color: #0a53be;
+  background-color: hotpink;
+  border-color: hotpink;
 }
 .btn-check:checked + .btn-primary:focus,
 .btn-check:active + .btn-primary:focus,
