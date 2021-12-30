@@ -386,11 +386,6 @@ a:hover {
   width: 100%;
 }
 
-.vasotermico img {
-  width: 500px;
-  height: 450px;
-}
-
 @media (min-width: 250px) {
   .vasotermico {
     width: 90%;
