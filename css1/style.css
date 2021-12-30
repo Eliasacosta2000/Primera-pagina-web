@@ -325,6 +325,7 @@ a:hover {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    margin-left: 25px;
   }
 }
 /*Fin de FAQ*/
