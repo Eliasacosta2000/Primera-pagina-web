@@ -242,21 +242,6 @@ a:hover {
     border-radius: 0.5rem;
   }
 }
-@media (min-width: 250px) {
-  .cat {
-    width: 90%;
-    margin-top: 25px;
-  }
-  .cat__padre {
-    width: 80%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-left: 25px;
-  }
-}
 /*Fin de categorias*/
 
 /*Productos Nuevos*/
