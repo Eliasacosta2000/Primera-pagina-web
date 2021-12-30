@@ -250,12 +250,13 @@ a:hover {
   }
 
   .cat__padre {
-    width: 55%;
+    width: 80%;
     height: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    margin-left: 25px;
   }
 }
 /*Fin de categorias*/
