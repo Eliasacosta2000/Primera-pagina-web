@@ -331,6 +331,7 @@ a:hover {
   padding: 100px;
   text-align: center;
   color: black;
+  width: 100%;
 }
 
 .ol {
@@ -341,7 +342,7 @@ a:hover {
 
 @media (min-width: 250px) {
   .platopizza {
-    width: 100%;
+    width: 90%;
   }
 
   img {

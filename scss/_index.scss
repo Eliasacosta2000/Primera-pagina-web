@@ -330,6 +330,7 @@ a:hover {
   padding: 100px;
   text-align: $text-center;
   color: $color-primario;
+  width: 100%;
 }
 .ol {
   list-style: $lista-style;
@@ -338,7 +339,7 @@ a:hover {
 }
 @media (min-width: 250px) {
   .platopizza {
-    width: 100%;
+    width: 90%;
   }
   img {
     width: 100%;
