@@ -4,7 +4,7 @@ body {
   font-weight: bolder;
   font-style: normal;
   color: white;
-  background-color: white;
+  background: white;
 }
 .header {
   margin-top: 5px;
@@ -15,19 +15,16 @@ body {
   padding-bottom: 15px;
   padding-top: 15px;
   height: 100%;
-  width: 100%;
+  width: 95%;
   background-color: white;
 }
 
-@media (max-width: 768px) {
-  body {
-    width: 100%;
-  }
+@media (min-width: 250px) {
   .main {
     width: 100%;
   }
-  .header {
-    width: 100%;
+  .card {
+    margin-top: 20px;
   }
 }
 
@@ -77,25 +74,6 @@ a:hover {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-  }
-}
-@media (max-width: 768px) {
-  .masvendidos {
-    width: 80%;
-  }
-  .masvendidos__img {
-    width: 50%;
-    margin: auto;
-  }
-  .card {
-    margin-top: 20px;
-  }
-  .destacados {
-    width: 80%;
-  }
-  .destacados__img {
-    width: 50%;
-    margin: auto;
   }
 }
 
@@ -176,15 +154,6 @@ a:hover {
   color: $color-primario;
 }
 
-@media (max-width: 768px) {
-  .sobrenosotros {
-    width: 80%;
-  }
-  .sobrenosotros__p {
-    width: 80%;
-  }
-}
-
 /*Fin de index*/
 
 /*FOOTER*/
@@ -246,11 +215,6 @@ a:hover {
   color: $color-primario;
 }
 
-@media (max-width: 768px) {
-  .footer {
-    width: 100%;
-  }
-}
 /*Fin de FOOTER*/
 
 /*Categorias*/
