@@ -225,7 +225,7 @@ a:hover {
   text-align: $text-center;
   display: flex;
   justify-content: center;
-  width: 95%;
+  width: 100%;
 
   &__padre {
     display: grid;
@@ -244,16 +244,21 @@ a:hover {
 }
 @media (min-width: 250px) {
   .cat {
-    width: 100%;
+    width: 90%;
+    margin-top: 25px;
   }
   .cat__padre {
-    width: 100%;
-  }
-  .cat__hijo {
-    width: 100%;
+    width: 55%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
 }
-/*Fin de categorias*/ /*Productos Nuevos*/
+/*Fin de categorias*/
+
+/*Productos Nuevos*/
 .productosnuevos {
   color: $color-background;
   margin: 1.1rem;

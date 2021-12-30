@@ -226,7 +226,7 @@ a:hover {
   text-align: center;
   display: flex;
   justify-content: center;
-  width: 95%;
+  width: 100%;
 }
 .cat__padre {
   display: grid;
@@ -245,15 +245,17 @@ a:hover {
 
 @media (min-width: 250px) {
   .cat {
-    width: 100%;
+    width: 90%;
+    margin-top: 25px;
   }
 
   .cat__padre {
-    width: 100%;
-  }
-
-  .cat__hijo {
-    width: 100%;
+    width: 55%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
 }
 /*Fin de categorias*/
