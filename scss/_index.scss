@@ -355,6 +355,18 @@ a:hover {
   padding: 100px;
   text-align: $text-center;
   color: $color-primario;
+  width: 100%;
+}
+@media (min-width: 250px) {
+  .conosdips {
+    width: 90%;
+  }
+  img {
+    width: 100%;
+  }
+  .ol {
+    width: 100%;
+  }
 }
 
 /*Fin de conosdips*/
@@ -366,11 +378,23 @@ a:hover {
   padding: 100px;
   text-align: $text-center;
   color: $color-primario;
+  width: 100%;
 }
 
 .vasotermico img {
   width: 500px;
   height: 450px;
+}
+@media (min-width: 250px) {
+  .vasotermico {
+    width: 90%;
+  }
+  img {
+    width: 100%;
+  }
+  .ol {
+    width: 100%;
+  }
 }
 
 /*Fin de vasostermicos*/

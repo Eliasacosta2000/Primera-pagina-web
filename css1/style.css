@@ -360,8 +360,22 @@ a:hover {
   padding: 100px;
   text-align: center;
   color: black;
+  width: 100%;
 }
 
+@media (min-width: 250px) {
+  .conosdips {
+    width: 90%;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .ol {
+    width: 100%;
+  }
+}
 /*Fin de conosdips*/
 /*Vasostermicos*/
 .vasotermico {
@@ -369,6 +383,7 @@ a:hover {
   padding: 100px;
   text-align: center;
   color: black;
+  width: 100%;
 }
 
 .vasotermico img {
@@ -376,6 +391,19 @@ a:hover {
   height: 450px;
 }
 
+@media (min-width: 250px) {
+  .vasotermico {
+    width: 90%;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .ol {
+    width: 100%;
+  }
+}
 /*Fin de vasostermicos*/
 /*Portacepillos*/
 .portacepillo {
