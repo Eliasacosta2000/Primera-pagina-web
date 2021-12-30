@@ -8,14 +8,14 @@ body {
 }
 .header {
   margin-top: 5px;
-  padding-left: 10px;
+  padding-left: 15px;
   background-color: hotpink;
 }
 .main {
   padding-bottom: 15px;
   padding-top: 15px;
   height: 100%;
-  width: 95%;
+  width: 100%;
   background-color: white;
 }
 
@@ -225,6 +225,7 @@ a:hover {
   text-align: $text-center;
   display: flex;
   justify-content: center;
+  width: 95%;
 
   &__padre {
     display: grid;
@@ -241,16 +242,25 @@ a:hover {
     border-radius: 0.5rem;
   }
 }
-/*Fin de categorias*/
-
-/*Productos Nuevos*/
-
+@media (min-width: 250px) {
+  .cat {
+    width: 100%;
+  }
+  .cat__padre {
+    width: 100%;
+  }
+  .cat__hijo {
+    width: 100%;
+  }
+}
+/*Fin de categorias*/ /*Productos Nuevos*/
 .productosnuevos {
   color: $color-background;
   margin: 1.1rem;
   font-family: $font-tipo;
   font-weight: bolder;
   font-style: normal;
+  width: 95%;
 }
 
 .div__prod-container {
@@ -261,6 +271,7 @@ a:hover {
   text-align: $text-center;
   margin-bottom: 20px;
   color: $color-background;
+  width: 95%;
 
   .estuche {
     height: 380px;
@@ -277,10 +288,12 @@ a:hover {
   }
 }
 
-/*Fin de productos nuevos*/
-
-/*FAQ*/
-
+@media (min-width: 250px) {
+  .productosnuevos {
+    width: 100%;
+  }
+}
+/*Fin de productos nuevos*/ /*FAQ*/
 .faq__contenedor {
   display: grid;
   grid-template-columns: 30% 30% 30%;
@@ -299,6 +312,15 @@ a:hover {
   font-size: 1.1rem;
   color: darkcyan;
 }
+
+@media (min-width: 250px) {
+  .faq__item {
+    width: 100%;
+  }
+  .p__faq {
+    width: 50%;
+  }
+}
 /*Fin de FAQ*/
 
 /*Inicio de platospizza*/
@@ -314,11 +336,19 @@ a:hover {
   text-transform: uppercase;
   color: hotpink;
 }
+@media (min-width: 250px) {
+  .platopizza {
+    width: 100%;
+  }
+  img {
+    width: 100%;
+  }
+  .ol {
+    width: 100%;
+  }
+}
 
-/*Fin de platospizza*/
-
-/*Conosdips*/
-
+/*Fin de platospizza*/ /*Conosdips*/
 .conosdips {
   margin: 20px;
   padding: 100px;
@@ -439,21 +469,16 @@ a:hover {
 .contacto {
   padding-top: 10px;
   width: 750px;
-  height: 925px;
+  height: auto;
   margin: auto;
   color: $color-primario;
   text-align: $text-center;
-  border: hotpink 5px solid;
   border-radius: 1rem;
   background-color: whitesmoke;
 }
 
-label {
-  display: block;
-}
-
 input {
-  width: 500px;
+  width: 250px;
   text-align: $text-center;
 }
 
@@ -479,6 +504,15 @@ input {
   &__div {
     padding: 10px 10px;
     margin: 10px;
+  }
+}
+
+@media (min-width: 250px) {
+  .contacto {
+    width: 100%;
+  }
+  textarea {
+    width: 100%;
   }
 }
 
