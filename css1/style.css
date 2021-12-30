@@ -98,6 +98,10 @@ a:hover {
     margin: auto;
   }
 
+  .card {
+    margin-top: 20px;
+  }
+
   .destacados {
     width: 80%;
   }
@@ -186,8 +190,7 @@ a:hover {
   }
 
   .sobrenosotros__p {
-    width: 50%;
-    margin: auto;
+    width: 80%;
   }
 }
 /*Fin de index*/
